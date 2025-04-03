@@ -1,0 +1,13 @@
+.main-slider-big-image{
+    position: relative;
+}
+.main-image{
+    width: 60%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.main-text-animate{
+    width: 30%;
+    margin-left: 5px;
+}

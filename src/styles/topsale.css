@@ -1,0 +1,109 @@
+.main-topsale-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gainsboro;
+    padding-bottom: 40px;
+}
+.topsale-header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+.topsale-header span{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.topsale-header span h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.topsale-header span h2{
+    margin-left: 25px;
+    color: red;
+    font-size: 25px;
+}
+.topsale-header span p{
+    margin-left: 25px;
+    font-size: 20px;
+}
+.topsale-product-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.topsale-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23%;
+    background-color: white;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.topsale-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.topsale-text h1{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.topsale-text h2{
+    text-decoration: line-through;
+}
+.topsale-text h3{
+    color: red;
+}
+.topsale-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topsale-img img{
+    width: 90%;
+}
+@media (max-width: 767px) {
+    .topsale-product{
+        width: 45%;
+    }
+    .topsale-text{
+        width: 100%;
+    }
+    .topsale-text h1{
+        font-size: 10px;
+    }
+    .topsale-text h3{
+        font-size: 10px;
+    }
+    .topsale-text h2{
+        font-size: 15px;
+    }
+    .topsale-header{
+        width: 95%;
+    }
+    .topsale-header span h1{
+        font-size: 20px;
+    }
+    
+}
+.topsale-product:hover{
+transform: scale(1.03);
+transition: 1s;
+cursor: pointer;
+}
